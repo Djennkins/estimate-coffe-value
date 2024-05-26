@@ -50,7 +50,6 @@ export default function CoffeeForm() {
 
 			const data = await response.json();
 			setPrice(data.price);
-			return data();
 		} catch (error) {
 			console.error("Error:", error);
 		}
