@@ -3,4 +3,87 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #662e1c;
+	height: 100svh;
+}
+
+label {
+	font-weight: bold;
+	display: flex;
+	margin-bottom: 5px;
+	color: #ebdcb2;
+}
+
+input + label {
+	font-weight: bold;
+	display: inline-flex;
+	margin-right: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+	display: block;
+	width: 400px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.form-control {
+	margin-bottom: 20px;
+}
+
+.error {
+	width: 400px;
+	font-weight: 700;
+	color: #d34b25;
+}
+
+.button {
+	display: inline-block;
+	padding: 8px 16px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid #808087;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #c9a66b;
+	width: 100%;
+}
+
+.button:hover {
+	background-color: #cba25b;
+	border-color: #cba25b;
+}
+
+.button:active {
+	background-color: #bb8d3e;
+	border-color: #bb8d3e;
+}
+
+.button:disabled {
+	cursor: not-allowed;
+	background-color: #bdc3c7;
+	border-color: #bdc3c7;
+	color: #7f8c8d;
+}
+
+.price-value {
+	display: flex;
+	justify-content: space-between;
+	font-size: larger;
+	font-weight: bold;
+	color: #ebdcb2;
 }
